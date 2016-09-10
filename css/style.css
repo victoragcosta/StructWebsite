@@ -1,0 +1,17 @@
+.navbar-default .navbar-brand {
+    color: #2da2ff;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #2da2ff;
+}
+
+.center-title {
+    color: #fd8d4b;
+}
+
+.btn-default {
+    color: #1d7cfa;
+    background-color: #fff;
+    border-color: #ccc;
+}
