@@ -38,5 +38,27 @@ git checkout -b [nome_do_branch]
 Um dos membros da equipe ficará responsável pelo _merge_
 * Funcionalidade são separadas em Branches de cada um e serão _merged_ com o _master branch_
 
+##Ferramentas:
+* Bootstrap
+* Javascript / JQuery
 
-## Telas do Website (definidas na reunião Web 09/09/16):
+##Estrutura Website:
+* Barra de Navegação superior sempre visível - botões de __Serviço__, __Sobre__ e __Contato__
+* __Inicial__
+  - Logo centralizada
+  - Nome da Empresa + Engenharia de Computação
+  - Imagem de fundo desfocada
+  - Botão para _Facebook_ e _Email_ (mailto)
+* Seção __Serviço__
+  - Resumo serviços e capacidades técnicas
+  - Portifólio -  abre em uma tela sobreposta com transparência - projetos em grade de ícones lado a lado
+  - Parceiros - igual portifólio
+* Seção __Sobre__
+  - Sobre nossa empresa / Diretorias
+  - Membros - igual portifólio
+  - História
+* Seção __Contato__
+  - Endereço detalhado + link Maps
+  - Email / Facebook
+  - GitHub
+  - Trabalhe Conosco - acompanhe divulgação do processo seletivo no Facebook
