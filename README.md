@@ -62,3 +62,7 @@ Um dos membros da equipe ficará responsável pelo _merge_
   - Email / Facebook
   - GitHub
   - Trabalhe Conosco - acompanhe divulgação do processo seletivo no Facebook
+
+##Créditos:
+* [Bootstrap Landing Page](https://startbootstrap.com/template-overviews/landing-page/)
+* [Getting started git team environment](https://www.sitepoint.com/getting-started-git-team-environment/)
