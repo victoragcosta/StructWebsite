@@ -1,9 +1,11 @@
 .navbar-default .navbar-brand {
-    color: #2da2ff;
+    color: #fd8d4b;
+    font-family: "PT Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .navbar-default .navbar-nav>li>a {
     color: #2da2ff;
+    font-family: "PT Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .center-title {
