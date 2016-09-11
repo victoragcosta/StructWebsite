@@ -33,13 +33,14 @@
   background-color: rgba(45,162,255, 0.7);
   padding:15px;
   border-radius: 15px;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
 }
 
 .banner-text {
   color: #fff;
   font-family: "PT Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
   margin: 0;
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
   font-size: 1.5em;
 }
 
@@ -59,4 +60,17 @@
 
 .btn-general:hover {
   color: #0a369f;
+}
+
+.footer-links>li>a {
+  color: #fc9e70;
+}
+
+.footer-links>li>a:hover {
+  color: #2b519e;
+}
+
+p.copyright {
+    color: #2b519e;
+    margin: 15px 0 0;
 }
