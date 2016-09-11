@@ -8,11 +8,14 @@
 
 ###Configuração prévia:
 * Instale o Git no seu computador
-* Clone o repositório:
-```
-git clone https://github.com/StructCE/website.git
-````
 * Dê _Fork_ no repositório
+* Clone o seu repositório para o seu computador:
+```
+git clone https://github.com/seu-git/website.git
+```
+
+
+Se for necessário criar Branches:
 
 ###_Branches_ (Ramos):
 * _Branches_ são caminhos que você pode criar no código
@@ -23,13 +26,7 @@ Para verificar a lista de ramos e o ramo atual que você está trabalhando, exec
 ```
 git branch
 ```
-
 Para criar um Branch e já começar a usá-lo:
-```
-git branch [nome_do_branch]
-git checkout [nome_do_branch]
-```
-ou resumidamente:
 ```
 git checkout -b [nome_do_branch]
 ```
@@ -66,3 +63,5 @@ Um dos membros da equipe ficará responsável pelo _merge_
 ##Créditos:
 * [Bootstrap Landing Page](https://startbootstrap.com/template-overviews/landing-page/)
 * [Getting started git team environment](https://www.sitepoint.com/getting-started-git-team-environment/)
+
+Este website foi codificado por integrantes da Struct Empresa Júnior de Engenharia de Computação, Universidade de Brasília e está sob a Licença: [MIT License](https://opensource.org/licenses/MIT)
