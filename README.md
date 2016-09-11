@@ -40,25 +40,38 @@ Um dos membros da equipe ficará responsável pelo _merge_
 * Javascript / JQuery
 
 ##Estrutura Website:
-* Barra de Navegação superior sempre visível - botões de __Serviço__, __Sobre__ e __Contato__
+* Barra de Navegação superior sempre visível - lado Esquedo: botão início / lado Direito: botões de __Serviço__, __Sobre__, __Oportunidades__ e __Contato__
 * __Inicial__
   - Logo centralizada
   - Nome da Empresa + Engenharia de Computação
-  - Imagem de fundo desfocada
+  - Descrição em uma linha da empresa
+  - Imagem de fundo
   - Botão para _Facebook_ e _Email_ (mailto)
 * Seção __Serviço__
   - Resumo serviços e capacidades técnicas
   - Portifólio -  abre em uma tela sobreposta com transparência - projetos em grade de ícones lado a lado
-  - Parceiros - igual portifólio
 * Seção __Sobre__
-  - Sobre nossa empresa / Diretorias
-  - Membros - igual portifólio
+  - Sobre nossa empresa
   - História
+  - Membros / Diretorias - igual portifólio
+  - Parceiros - igual portifólio
+* Seção __Oportunidades__
+  - Trabalhe Conosco - acompanhe divulgação do processo seletivo no Facebook
+  - Eventos e Workshops - acompanhe no Facebook
 * Seção __Contato__
   - Endereço detalhado + link Maps
   - Email / Facebook
   - GitHub
-  - Trabalhe Conosco - acompanhe divulgação do processo seletivo no Facebook
+
+##To-Do
+
+* Transição suave entre seções
+* Página de Portifólio
+* Página de Membros / Diretorias
+* Página de Parceiros
+* Animação Foguete
+* Formulário de Contato (?)
+* Backend
 
 ##Créditos:
 * [Bootstrap Landing Page](https://startbootstrap.com/template-overviews/landing-page/)
