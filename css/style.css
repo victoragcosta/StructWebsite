@@ -24,6 +24,11 @@
     font-size: 3em;
 }
 
+.center-subtitle {
+    color: #fd8d4b;
+    font-size: 2em;
+}
+
 .lead {
     font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #2f414f;
