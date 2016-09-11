@@ -8,6 +8,14 @@
     font-family: "PT Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.navbar-default .navbar-brand:hover {
+    color: #0a369f;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #0a369f;
+}
+
 .center-title {
     color: #fff;
     font-family: "PT Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
