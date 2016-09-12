@@ -79,3 +79,21 @@ p.copyright {
     color: #2b519e;
     margin: 15px 0 0;
 }
+
+.marketing .col-md-2 {
+  color: #c4c4c4;
+  font-family: "PT Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  color: #2f414f;
+  font-family: "PT Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: normal;
+}
+.marketing p {
+  font-family: "PT Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
