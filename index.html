@@ -34,7 +34,7 @@
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-    <!-- Navigation -->
+    <!-- Barra de Navegação -->
     <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
         <div class="container topnav">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -115,21 +115,69 @@
                     <p class="lead">Criamos, inspiramos, fazemos seu projeto acontecer. Struct é a Empresa Júnior de Engenharia de Computação da Universidade de Brasília.
                     <br><br>
                     <b>Nossa missão é produzir produtos personalizados de alta qualidade, além de oferecer manutenção e consultoria a nossos clientes.
-                      Eficiência na execução e sintonia com o cliente são nossas maiores prioridades.</b>
-                    <br><br>
-                    <b>Desenvolvemos Aplicações Mobile e Web</b> (Websites, Portifólios, Plataformas Virtuais, Aplicativos Móveis...)
-                    <br><br>Acesse nosso portifólio aqui:</p>
-                    <a href="#" target="_blank" class="btn btn-default btn-lg btn-general page-scroll"><i class="fa fa-briefcase fa-fw"></i> <span class="network-name">Portifólio</span></a>
+                      Eficiência na execução e sintonia com o cliente são nossas maiores prioridades.</b><br><br>
+                    <b>Desenvolvemos Aplicações Mobile e Web</b> (Websites, Portifólios, Plataformas Virtuais, Aplicativos Móveis...)<br></p>
+                    <div id="portifolio-button"></div><br>
+                    <p class="lead">Acesse nosso portifólio aqui:</p>
+                    <a data-toggle="collapse" data-target="#portifolio-collapse" href="#portifolio-button" class="btn btn-default btn-lg btn-general page-scroll"><i class="fa fa-briefcase fa-fw"></i><span class="network-name">Portifólio</span></a>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6" style="padding-top:10%;">
                     <img class="img-responsive center-block" src="img/devices.png" alt="">
                 </div>
             </div>
 
+            <div id="portifolio-collapse" class="collapse row marketing" style="padding-top:3%;">
+                <div class="col-lg-12 col-sm-6" style="background-color:#fff; border-radius:15px; padding-top:20px;">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-2">
+                        <img class="img-circle" src="img/00-guiamochilunb.png" alt="Generic placeholder image" width="140" height="140">
+                        <h2>Guia do Mochileiro da UnB</h2>
+                        <p>Um dos primeiros projetos da Empresa, o aplicativo foi idealizado como um Guia básico para qualquer novato na Universidade de Brasília.
+                        Recebeu apoio das realizações de 50 anos da Universidade.
+                        <br><a href="http://www.unb50anos.com.br/index.php/component/content/article/9-noticias/285-estudantes-criam-aplicativo-mochileiro-da-unb-para-android" target="_blank">UnB 50 anos</a>
+                        <br><a href="https://play.google.com/store/apps/details?id=gm.unb&hl=pt_BR" target="_blank"><i class="fa fa-play fa-fw"></i> Google Play</a></p>
+                    </div>
+                    <div class="col-md-2">
+                        <img class="img-circle" src="img/01-caronaphone.png" alt="Generic placeholder image" width="140" height="140">
+                        <h2>Carona Phone</h2>
+                        <p>Carona Phone é uma aplicação gratuita com foco na carona solidária,
+                          destinada a qualquer tipo de usuário. A Struct participou da execução do desenvolvimento da aplicação móvel em Android.
+                        <br><a href="http://caronaphone.com/" target="_blank">Visite o site aqui</a>
+                        <br><a href="https://play.google.com/store/apps/details?id=br.com.caronaphone.android.app" target="_blank"><i class="fa fa-play fa-fw"></i> Google Play</a></p>
+                    </div>
+                    <div class="col-md-2">
+                        <img class="img-circle" src="img/02-doisnovemeialogo.png" alt="Generic placeholder image" width="140" height="140">
+                        <h2>Doisnovemeia</h2>
+                        <p>A Struct realizou uma parceria com a Doisnovemeia: recebemos uma consultoria de marketing, e,
+                          em contrapartida, desenvolvemos um sistema para o gerenciamento de conteúdo do site da Empresa.
+                        <br><a href="http://doisnovemeia.com.br/" target="_blank">Visite o site aqui</a>
+                        </p>
+                    </div>
+                    <div class="col-md-2">
+                        <img class="img-circle" src="img/03-projprecoce.png" alt="Generic placeholder image" width="140" height="140">
+                        <h2>Projeto Precoce</h2>
+                        <p>Precoce é um projeto de extensão da professora Aida Fadel, do Departamento de Engenharia Mecânica da UnB.
+                        O projeto oferece cursos de capacitação tecnológica para alunos do ensino médio e a Struct trabalhou em parceria com o projeto.
+                      <br><a href="http://unb.br/noticias/unbagencia/unbagencia.php?id=3666" target="_blank">Conheça mais aqui</a>
+                        </p>
+                    </div>
+                    <div class="col-md-2">
+                        <img class="img-circle" src="img/04-testobsb.png" alt="Generic placeholder image" width="140" height="140">
+                        <h2>Testo Brasília</h2>
+                        <p>Uma aplicação móvel foi desenvolvida a pedido da Empresa Testo Brasília, que há mais de duas décadas trabalha com moda.
+                          O aplicativo se tornou a interface com o usuário para apresentar os serviços e produtos oferecidos pela empresa.
+                          <br><a href="https://play.google.com/store/apps/details?id=br.unb.struct.testobsb" target="_blank"><i class="fa fa-play fa-fw"></i> Google Play</a></p>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+            </div>
+
         </div>
         <!-- /.container -->
-
     </div>
+
+
+
     <!-- /.content-section-a -->
     <a id="about" name="about"></a>
     <div class="content-section-b">
@@ -149,12 +197,37 @@
                     </p>
                     <ul class="list-inline banner-social-buttons">
                         <li>
-                            <a href="#" target="_blank" class="btn btn-default btn-lg btn-general"><i class="fa fa-users fa-fw"></i> <span class="network-name">Equipe</span></a>
+                            <a data-toggle="collapse" data-target="#portifolio-collapse" href="#" class="btn btn-default btn-lg btn-general"><i class="fa fa-users fa-fw"></i> <span class="network-name">Equipe</span></a>
                         </li>
                         <li>
-                            <a href="#" target="_blank" class="btn btn-default btn-lg btn-general"><i class="fa fa-suitcase fa-fw" ></i> <span class="network-name">Parceiros</span></a>
+                            <a href="#" class="btn btn-default btn-lg btn-general"><i class="fa fa-suitcase fa-fw" ></i> <span class="network-name">Parceiros</span></a>
                         </li>
                     </ul>
+                </div>
+
+
+                <div id="team-collapse" class="collapse row" style="padding-top:3%;">
+                    <div class="col-lg-12 col-sm-6" style="background-color:#fff; border-radius:15px; padding-top:20px;">
+                      <div class="col-lg-12 col-sm-6">
+                      <div class="col-md-1"></div>
+                        <div class="col-md-2">
+                            <img class="img-responsive portfolio-item" style="margin-top:20px;" src="img/00-guiamochilunb.png" alt="">
+                        </div>
+                        <div class="col-md-2">
+                            <img class="img-responsive portfolio-item" src="img/01-caronaphone.png" alt="">
+                        </div>
+                        <div class="col-md-2">
+                            <img class="img-responsive portfolio-item" src="img/02-doisnovemeialogo.png" alt="">
+                        </div>
+                        <div class="col-md-2">
+                            <img class="img-responsive portfolio-item" src="img/03-projprecoce.png" alt="">
+                        </div>
+                        <div class="col-md-2">
+                            <img class="img-responsive portfolio-item" src="img/04-testobsb.png" alt="">
+                        </div>
+                        <div class="col-md-1"></div>
+                      </div>
+                    </div>
                 </div>
 
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6" style="padding-top:10%;">
