@@ -1,14 +1,12 @@
-/*
-.panel-body {
-  height: 350px;
-  overflow-y: scroll;
+.panel-struct {
+  border-color: #54bbfe;
 }
-*/
-.panel-red {
-  border-color: #d9534f;
+.panel-struct > .panel-heading {
+  color: white;
+  background-color: #54bbfe;
+  border-color: #54bbfe;
 }
-.panel-red > .panel-heading {
-  border-color: #d9534f;
-  color: red;
-  background-color: #d9534f;
+.panel-struct > .panel-footer {
+  border-top-color: #54bbfe;
+  background-color: #54bbfe;
 }
